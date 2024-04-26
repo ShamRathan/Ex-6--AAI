@@ -1,9 +1,10 @@
 <H3>ENTER YOUR NAME: S.SHAM RATHAN </H3>
 <H3>ENTER YOUR REGISTER NO: 212221230093</H3>
-<H3>EX. NO.6</H3>
+<H3>EX.NO.6</H3>
 <H3>DATE:</H3>
-<H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
-<H3>Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </H3> 
+<H1 ALIGN =CENTER>Implementation of Semantic Analysis</H1>
+<H3>Aim:</H3> 
+<P>To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </P>
  <BR>
 <h3>Algorithm:</h3>
 Step 1: Import the nltk library.<br>
@@ -16,8 +17,8 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
-<H3>Program:</H3>
 
+## Program:
 ```
 import nltk
 from nltk.corpus import wordnet
@@ -77,7 +78,8 @@ if __name__ == '__main__':
     main()
 ```
 
-<H3>Output</H3>
+## Output:
+
 |Verb|Synonyms|
 |---|---|
 |was|Washington, Evergreen\_State, WA, be, be, be, exist, be, be, equal, be, constitute, represent, make\_up, comprise, be, be, follow, embody, be, personify, be, be, live, be, cost, be|
@@ -127,7 +129,6 @@ if __name__ == '__main__':
 |tell|Tell, William\_Tell, state, say, tell, tell, tell, narrate, recount, recite, order, tell, enjoin, say, tell, assure, tell, tell, evidence, distinguish, separate, differentiate, secern, secernate, severalize, severalise, tell, tell\_apart|
 |create|make, create, create, create, create, create, make, produce, make, create|
 |show|show, display, show, show, appearance, show, show, demo, exhibit, present, demonstrate, prove, demonstrate, establish, show, shew, testify, bear\_witness, prove, evidence, show, show, picture, depict, render, show, express, show, evince, indicate, point, designate, show, show, show\_up, read, register, show, record, show, usher, show, show|
-
 
 <H3>Result:</H3>
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
